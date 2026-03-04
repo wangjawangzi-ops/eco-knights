@@ -10,9 +10,9 @@ st.title("🌱 Eco-Audit Campus Calculator")
 st.header("Enter Your Daily Usage")
 
 with st.form(key="usage_form"):
-    department = st.selectbox("Department", ["Mechanical", "Computer Science", "Arts"])
+    department = st.selectbox("Department", ["Mechanical", "Computer Science", "Artificial intelligence","Electrical and Electronics","Electrical and Communication","Arts"])
     plastic_bottles = st.number_input("Number of plastic bottles used", min_value=0)
-    ac_hours = st.number_input("Hours AC was on", min_value=0.0)
+    ac_hours = st.number_input("Hours AC was on", min_value=0:0)
     pages_printed = st.number_input("Pages printed", min_value=0)
     submit_button = st.form_submit_button(label="Submit")
 
